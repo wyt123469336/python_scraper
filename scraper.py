@@ -3,7 +3,6 @@
 
 # In[ ]:
 
-
 import requests
 import getpass
 from selenium import webdriver
@@ -23,7 +22,7 @@ from Crypto.Cipher import AES
 import os
 
 #my_key = os.urandom(BLOCK_SIZE) use to generate random AES key
-my_key = b"\x0b\xd2\xad'\xed\x83\x0b\xd6\xac!\x13\xd6\x13\x013\x85"
+
 
 #to encrypt user password
 def AES_encryption(private_info,my_key):
